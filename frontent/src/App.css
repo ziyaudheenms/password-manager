@@ -1,0 +1,12 @@
+.help{
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.btn Button{
+    margin: 2px;
+}
