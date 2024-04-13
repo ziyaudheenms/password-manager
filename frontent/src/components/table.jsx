@@ -83,7 +83,7 @@ function BasicExample() {
           <td>{item.Account_Name} </td>
           <td>{item.username} </td>
           <div className="box">
-          <td>{item.password} </td>
+          <td>******** </td>
           <div className="btn">
           <Button variant="outline-dark" onClick={() => copyToClipboard(item.password)}><i className="bi bi-clipboard"></i></Button>
           <Button variant="outline-dark" onClick={() => handlEvent (item.id)}><i className="bi bi-trash"></i></Button>
